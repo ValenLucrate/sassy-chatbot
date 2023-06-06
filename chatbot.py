@@ -9,7 +9,7 @@ from bs4 import BeautifulSoup
 
 nlp = spacy.load('en_core_web_sm-3.1.0')
 
-openai.api_key = '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'
+openai.api_key = 'your-api-key'
 
 while True:
     user_input = input('You: ')
